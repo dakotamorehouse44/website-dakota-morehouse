@@ -1,0 +1,141 @@
+ /* BASICS */
+	body {
+		font-family: 'Source Sans Pro', sans-serif;
+		background-image: url("../img/wi.jpg");
+		background-size: cover;
+		height:100%;
+		background-attachment: fixed;
+	}
+
+	body {
+
+	}
+
+/* HEADER */
+
+ 	header {
+ 		position: fixed;
+ 		top: 0;
+ 		left: 0;
+ 		width: 90%;
+ 	}
+
+ /* MAIN */
+
+main {);
+}
+
+h1 {
+	position: absolute;
+	top: 30rem;
+	left: 32rem;
+
+}
+
+.links {
+	position: absolute;
+	bottom: 47%;
+	left: 13%;
+	line-height: .5rem;
+	padding: 0;
+	margin: 0;
+}
+
+.links li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 2rem;
+}
+
+.links h2 {
+	color: #F6851F;
+	line-height: 2rem;
+	width: 21rem;
+
+}
+
+.links p{
+	color: #FFFFFF;
+	padding: 0;
+	margin: 0;
+	width: 17rem;
+}
+
+.links a{
+	text-decoration: none;
+	color: #F6851F;
+	display: block;
+
+}	
+
+.links a:hover h2, .links a:hover p{
+	background-color: #9c9c9c;
+
+}
+
+h3 {
+	position: absolute;
+	bottom: 10%;
+	left: 17%;
+	font-size: 2rem;
+	color: #F6851F;
+}
+
+@media screen and (min-width:40rem) {
+
+	.links {
+		position: absolute;
+		bottom: 35%;
+		left: 13%;
+	}
+
+	.links li{
+		list-style: none;
+		display: inline-block;
+		margin: 0rem;
+	}
+
+	.links h2 {
+		color: #F6851F;
+			}
+
+	.links p{
+		color: #FFFFFF;
+	}
+
+	.links a{
+		text-decoration: none;
+		color: #F6851F;
+		display: block;
+	}
+
+	.links a:hover h2, .links a:hover p{
+		background-color: #9c9c9c;
+
+	}
+
+h3 {
+	position: absolute;
+	bottom: 10%;
+	left: 17%;
+	font-size: 3rem;
+	color: #F6851F;
+}
+
+}
+
+
+ /* FOOTER */
+
+
+
+
+ 	footer {
+ 		position: fixed;
+ 		bottom: 0;
+ 		left: 0;
+ 		width: 90%;
+ 		height: 3rem;
+ 	}
+
+ 	
